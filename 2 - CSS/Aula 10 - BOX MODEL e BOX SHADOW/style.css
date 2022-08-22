@@ -1,0 +1,36 @@
+body {
+   background-image: url(blockblack.jpg); 
+   /* background-size: cover; -> PARA COBRIR TODA A TELA*/
+   background-attachment: fixed; /*DEIXA O BACKGROUND FIXO SEM SE MOVER PELO SCROLL*/
+}
+.yellow{
+    color:yellow
+}
+h1{
+    color:blue
+}
+h2{
+    color:black
+}
+.imagem1 {
+    width:200px;
+    border: 5px groove gray; /* SHORTHAND = VALOR DE WIDTH, STYLE E COLOR (A ORDEM É IMPORTANTE)*/
+    border-radius: 50%; /*BORDER PARA DEIXAR A BORDA MAIS ARRENDONDADA, PODE-SE TRABALHAR COM PIXER (px) OU POR PORCENTAGEM (%)
+    /* PODE-SE USAR TAMBEM SEPARADAMENTE BORDER CONFORME EXEMPLO ABAIXO, POREM NÃO É MUITO EFICIENTE. AQUI A ORDEM INDIFERE.
+    border-width: 5px;
+    border-color: gray;
+    border-style: groove; */
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    /* SHORTHAND = 50px (valor top) 300px (valor right) 100px (valor bottom) 300px (valor left)*/
+    padding: 1px; /*MARGEM INTERNA*/
+    height: 200px; /*ALTURA*/
+    box-shadow: 0px 0px 15px blue; /*SOMBRA --> DISTANCIA SOMBRA HORIZONTAL, DISTANCIA SOMBRA VERTICAL, DESFOQUE SOMBRA E COR*/
+}
+#titulo-principal {
+    color:green
+}
+p {
+    color:#ece4e4
+}

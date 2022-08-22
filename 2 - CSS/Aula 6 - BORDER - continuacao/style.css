@@ -1,0 +1,30 @@
+body {
+   background-image: url(blockblack.jpg); 
+   /* background-size: cover; -> PARA COBRIR TODA A TELA*/
+   background-attachment: fixed; /*DEIXA O BACKGROUND FIXO SEM SE MOVER PELO SCROLL*/
+}
+.yellow{
+    color:yellow
+}
+h1{
+    color:blue
+}
+h2{
+    color:black
+}
+.imagem1 {
+    width:200px;
+    border: 10px groove gray; /* SHORTHAND = A ORDEM É IMPORTANTE - VALOR DE WIDTH, STYLE E COLOR*/
+    border-radius: 40% 50% 60% 70%; /*BORDER PARA DEIXAR A BORDA MAIS ARRENDONDADA, PODE-SE TRABALHAR COM PIXER (px) OU POR PORCENTAGEM (%)*/
+
+    /* PODE-SE USAR TAMBEM SEPARADAMENTE BORDER CONFORME EXEMPLO ABAIXO, POREM NÃO É MUITO EFICIENTE. AQUI A ORDEM INDIFERE.
+    border-width: 5px;
+    border-color: gray;
+    border-style: groove; */
+}
+#titulo-principal {
+    color:green
+}
+p {
+    color:#ece4e4
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 0;
+    background-image: url(fumacablack.jpg); 
+    background-size: cover;/* background-size: cover; -> PARA COBRIR TODA A TELA*/
+    background-attachment:fixed; /*DEIXA O BACKGROUND FIXO SEM SE MOVER PELO SCROLL*/
+}
+.container{
+    width: 630px;
+    margin: 200px auto;
+    margin-bottom: 0;
+}
+.profile{
+    text-align: center;
+}
+.social-icon{
+    width: 40px;
+    height: auto;
+    margin: 0 15px;
+}
+.social-link{
+    text-decoration: none;
+}
+.jobs-list{
+    list-style: none
+}
+.yellow{
+    color:yellow
+}
+ul{
+    color:goldenrod
+
+}
+p{
+    margin-top:0
+}
+h1{
+    
+  margin-bottom: 40px;
+    
+}
+h2{
+    color:blue
+    
+}
+h3{
+    font-style: italic;
+    color:gold
+
+}
+h4{
+    color: white
+}
+.imagem1 {
+    width:200px;
+    border: 5px groove gray; /* SHORTHAND = VALOR DE WIDTH, STYLE E COLOR (A ORDEM É IMPORTANTE)*/
+    border-radius: 50%; /*BORDER PARA DEIXAR A BORDA MAIS ARRENDONDADA, PODE-SE TRABALHAR COM PIXER (px) OU POR PORCENTAGEM (%)
+    /* PODE-SE USAR TAMBEM SEPARADAMENTE BORDER CONFORME EXEMPLO ABAIXO, POREM NÃO É MUITO EFICIENTE. AQUI A ORDEM INDIFERE.
+    border-width: 5px;
+    border-color: gray;
+    border-style: groove; */
+      /* SHORTHAND = 50px (valor top = cima) 300px (valor right = direito) 100px (valor bottom = abaixo) 300px (valor left = esquerdo)*/
+    padding: 1px; /*MARGEM INTERNA*/
+    height: 200px; /*ALTURA*/
+    box-shadow: 0px 0px 25px orange; /*SOMBRA --> DISTANCIA SOMBRA HORIZONTAL, DISTANCIA SOMBRA VERTICAL, DESFOQUE SOMBRA E COR*/
+}
+
+h6{
+    margin-bottom: 0;
+    font-weight: 200;
+    font-style: italic;
+}
+.footer{
+    background: black;
+    text-align: center;
+    padding: 10px;
+}

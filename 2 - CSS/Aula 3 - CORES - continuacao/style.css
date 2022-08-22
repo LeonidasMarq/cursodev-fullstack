@@ -1,0 +1,21 @@
+body {
+    background: #7a7878;
+}
+.yellow{
+    color:yellow
+}
+h1{
+    color:blue
+}
+h2{
+    color:black
+}
+.imagem1 {
+    width:300px;
+}
+#titulo-principal {
+    color:green
+}
+p {
+    color:#ece4e4
+}

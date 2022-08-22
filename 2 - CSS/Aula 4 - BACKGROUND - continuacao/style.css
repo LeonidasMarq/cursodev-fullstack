@@ -1,0 +1,23 @@
+body {
+   background-image: url(blockblack.jpg); 
+   /* background-size: cover; -> PARA COBRIR TODA A TELA*/
+   background-attachment: fixed; /*DEIXA O BACKGROUND FIXO SEM SE MOVER PELO SCROLL*/
+}
+.yellow{
+    color:yellow
+}
+h1{
+    color:blue
+}
+h2{
+    color:black
+}
+.imagem1 {
+    width:300px;
+}
+#titulo-principal {
+    color:green
+}
+p {
+    color:#ece4e4
+}

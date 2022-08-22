@@ -1,0 +1,18 @@
+body {
+    background:darkgray
+}
+.yellow{
+    color:yellow
+}
+h1{
+    color:blue
+}
+h2{
+    color:black
+}
+.imagem1 {
+    width:300px;
+}
+#titulo-principal {
+    color:green
+}
